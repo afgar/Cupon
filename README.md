@@ -1,29 +1,9 @@
-Aplicación de prueba Cupon para Symfony 2.5.x
+Aplicación de prueba Cupon para Symfony 2.7.x
 =============================================
 
-**Cupon** es una aplicación de prueba desarrollada para aprender a programar con Symfony 2.5. Se trata de un clon simplificado de Groupon, de ahí el nombre. Esta aplicación es la base del libro **[Desarrollo web ágil con Symfony2](http://www.symfony.es/libro/)** publicado por Javier Eguiluz.
+**Cupon** es una aplicación de prueba desarrollada para aprender a programar con Symfony 2.7. Se trata de un clon simplificado de Groupon, de ahí el nombre. Esta aplicación es la base del libro **[Desarrollo web ágil con Symfony2](http://www.symfony.es/libro/)** publicado por Javier Eguiluz.
 
 Si descubres algún error, por favor utiliza [la página de issues de Github](https://github.com/javiereguiluz/Cupon/issues) para avisarnos.
-
-Pantallazos (pincha cada imagen para ampliarla)
------------------------------------------------
-
-### Frontend
-
-[![Portada](http://javiereguiluz.com/cupon/screenshots/thumb-cupon-frontend-portada.png)](http://javiereguiluz.com/cupon/screenshots/cupon-frontend-portada.png)
-[![Página de detalle de la oferta](http://javiereguiluz.com/cupon/screenshots/thumb-cupon-frontend-oferta.png)](http://javiereguiluz.com/cupon/screenshots/cupon-frontend-oferta.png)
-[![Página de ofertas recientes en una ciudad](http://javiereguiluz.com/cupon/screenshots/thumb-cupon-frontend-recientes.png)](http://javiereguiluz.com/cupon/screenshots/cupon-frontend-recientes.png)
-[![Formulario de login](http://javiereguiluz.com/cupon/screenshots/thumb-cupon-frontend-login.png)](http://javiereguiluz.com/cupon/screenshots/cupon-frontend-login.png)
-
-### Extranet
-
-[![Listado de ofertas](http://javiereguiluz.com/cupon/screenshots/thumb-cupon-extranet-listado.png)](http://javiereguiluz.com/cupon/screenshots/cupon-extranet-listado.png)
-[![Formulario para modificar oferta](http://javiereguiluz.com/cupon/screenshots/thumb-cupon-extranet-modificar-oferta.png)](http://javiereguiluz.com/cupon/screenshots/cupon-extranet-modificar-oferta.png)
-
-### Backend
-
-[![Listing](http://javiereguiluz.com/cupon/screenshots/thumb-cupon-backend-listado.png)](http://javiereguiluz.com/cupon/screenshots/cupon-backend-listado.png)
-[![Página de detalle de la oferta](http://javiereguiluz.com/cupon/screenshots/thumb-cupon-backend-ver-oferta.png)](http://javiereguiluz.com/cupon/screenshots/cupon-backend-ver-oferta.png)
 
 Instalando la aplicación
 ------------------------

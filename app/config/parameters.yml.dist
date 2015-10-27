@@ -2,11 +2,12 @@
 # by enclosing the key with % (like %database_user%)
 parameters:
     # Si NO usas SQLite, comenta estas líneas
-    database_driver: pdo_sqlite
-    database_path:   "%kernel.root_dir%/data/datos.sqlite"
+    # database_driver: pdo_sqlite
+    # database_path:   "%kernel.root_dir%/data/datos.sqlite"
 
     # Si usas MySQL, descomenta estas líneas
-    # database_driver:   pdo_mysql
+    database_driver: pdo_mysql
+    database_url:    mysql://cupon:cupon@localhost/cupon
     # database_host:     localhost
     # database_port:     null
     # database_name:     cupon

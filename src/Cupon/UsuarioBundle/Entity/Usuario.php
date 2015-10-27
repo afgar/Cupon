@@ -148,7 +148,7 @@ class Usuario implements UserInterface
     /**
      * @var integer $ciudad
      *
-     * @ORM\ManyToOne(targetEntity="Cupon\CiudadBundle\Entity\Ciudad", inversedBy="usuarios")
+     * @ORM\ManyToOne(targetEntity="Cupon\CiudadBundle\Entity\Ciudad")
      * @Assert\Type("Cupon\CiudadBundle\Entity\Ciudad")
      */
     private $ciudad;
