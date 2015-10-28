@@ -6,6 +6,9 @@
     },
     "require": {
         "php"                                  : ">=5.3.9",
+        "ext-intl"                             : "*",
+        "ext-mbstring"                         : "*",
+        "ext-apcu"                             : "*",
         "symfony/symfony"                      : "2.7.*",
         "doctrine/orm"                         : "^2.4.8",
         "doctrine/doctrine-bundle"             : "~1.4",
@@ -20,10 +23,7 @@
         "doctrine/doctrine-fixtures-bundle"    : "dev-master",
         "doctrine/data-fixtures"               : "dev-master",
         "beberlei/doctrineextensions"          : "0.3",
-        "ideup/simple-paginator-bundle"        : "dev-master",
-        "ext-intl": "*",
-        "ext-mbstring": "*",
-        "ext-apcu": "*"
+        "ideup/simple-paginator-bundle"        : "dev-master"
     },
     "scripts": {
         "post-install-cmd": [
