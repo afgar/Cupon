@@ -21,8 +21,8 @@
         "doctrine/data-fixtures"               : "dev-master",
         "beberlei/doctrineextensions"          : "0.3",
         "ideup/simple-paginator-bundle"        : "dev-master",
-        "intl"                                 : "*",
-        "mbstring"                             : "*"
+        "ext-intl"                             : "*",
+        "ext-mbstring"                         : "*"
     },
     "scripts": {
         "post-install-cmd": [
