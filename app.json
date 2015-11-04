@@ -1,0 +1,15 @@
+{
+  "name": "Aplicación Cupon de ejemplo para desplegar en Heroku",
+  "addons": ["cleardb:ignite", "papertrail:choklad", "scheduler:standard"],
+  "env": {
+    "SYMFONY_ENV": "prod",
+    "SECRET": {
+      "description": "Se autogenera",
+      "generator": "secret"
+    }
+  },
+  "scripts": {
+    "schema_create": "php app/console doctrine:schema:create",
+    "fixture_load": "php app/console doctrine:fixtures:load"
+  }
+}
